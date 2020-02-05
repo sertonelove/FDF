@@ -18,18 +18,12 @@ void    default_arg(fdf *data)
 int main(int argc, char **argv)
 {
     fdf *data;
-    if (argc != 2)
-    {
-        ft_putstr("usage: ./fdf map.fdf\n");
-        exit(1);
-    }
+    argc_error(argc);
     data = (fdf*)malloc(sizeof(fdf));
-
     default_arg(data);
     read_file(argv[1], data);
     data->mlx_ptr = mlx_init();
     data->win_ptr = mlx_new_window(data->mlx_ptr, 1000, 1000, "FDF");
-
     draw(data);
     mlx_key_hook(data->win_ptr, deal_key, data);
     mlx_loop(data->mlx_ptr);

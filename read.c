@@ -57,21 +57,21 @@ void    read_file(char *file_name, fdf *data)
     int fd;
     char    *line;
     int     i;
+    int     temp;
 
-    if ((fd = open(file_name, O_RDONLY, 0)) <= 0)
-    {
-        ft_putstr("file does not exist\n");
-        exit(1);
-    }
+    not_exist_error(file_name, fd);
     data->height = get_height(file_name);
     data->width = get_width(file_name);
     data->matrix_z = (int **)malloc(sizeof(int*) * (data->height + 1));
     i = 0;
+    temp = 0;
     while (i <= data->height)
         data->matrix_z[i++] = (int*)malloc(sizeof(int) * (data->width + 1));
     i = 0;
     while (get_next_line(fd, &line))
     {
+        validate_map(line, &temp);
+        not_valid_error(line, &temp);
         fill_matrix(data->matrix_z[i], line);
         free(line);
         i++;

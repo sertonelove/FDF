@@ -44,5 +44,9 @@ void    ft_zoom(float *x, float *y, fdf *data);
 void    ft_shift(float *x, float *y, fdf *data);
 void    ft_z_zoom(int *z, int *z1, fdf *data);
 void    ft_max(float *max, fdf *data);
+void    validate_map(char *line, int *temp);
+void    not_valid_error(char *line, int *temp);
+void    not_exist_error(char *file_name, int fd);
+void    argc_error(int argc);
 
 #endif
