@@ -13,12 +13,12 @@
 
 typedef struct
 {
-    float x;
-    float y;
     float x1;
     float y1;
     float cos;
     float sin;
+    float x_step;
+    float y_step;
     int isometr;
     int height;
     int width;
@@ -39,5 +39,10 @@ void    draw(fdf *data);
 void	draw_menu(fdf *data);
 int deal_key(int key, fdf *data);
 void	ft_temp(int temp, float x, float y, fdf *data);
+void    isometric(float *x, float *y, int z, fdf *data);
+void    ft_zoom(float *x, float *y, fdf *data);
+void    ft_shift(float *x, float *y, fdf *data);
+void    ft_z_zoom(int *z, int *z1, fdf *data);
+void    ft_max(float *max, fdf *data);
 
 #endif

@@ -6,8 +6,6 @@
 
 void    default_arg(fdf *data)
 {
-    data->x = 0;
-    data->y = 0;
     data->zoom = 20;
     data->cos = 0.8;
     data->sin = 0.8;
