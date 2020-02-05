@@ -13,6 +13,10 @@
 
 typedef struct
 {
+    float x;
+    float y;
+    float x1;
+    float y1;
     float cos;
     float sin;
     int isometr;
@@ -30,10 +34,10 @@ typedef struct
 }       fdf;
 
 void    read_file(char *file_name, fdf *data);
-void    compound(float x, float y, float x1, float y1, fdf *data);
+void    compound(float x, float y, int temp, fdf *data);
 void    draw(fdf *data);
 void	draw_menu(fdf *data);
-void    compound(float x, float y, float x1, float y1, fdf *data);
 int deal_key(int key, fdf *data);
+void	ft_temp(int temp, float x, float y, fdf *data);
 
 #endif
