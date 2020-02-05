@@ -33,5 +33,7 @@ void    read_file(char *file_name, fdf *data);
 void    compound(float x, float y, float x1, float y1, fdf *data);
 void    draw(fdf *data);
 void	draw_menu(fdf *data);
+void    compound(float x, float y, float x1, float y1, fdf *data);
+int deal_key(int key, fdf *data);
 
-#endif //FDF_FDF_H
+#endif
