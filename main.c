@@ -34,6 +34,12 @@ int deal_key(int key, fdf *data)
         data->z_zoom += 1;
     if (key == 43)
         data->z_zoom -= 1;
+    if (key == 53)
+    {
+        mlx_destroy_window(data->mlx_ptr, data->win_ptr);
+        free(data->matrix_z);
+        exit(0);
+    }
     mlx_clear_window(data->mlx_ptr, data->win_ptr);
     draw(data);
     return (0);
