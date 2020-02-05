@@ -20,13 +20,13 @@ int deal_key(int key, fdf *data)
         data->zoom += 5;
     if (key == 27 || key == 78)
         data->zoom -= 5;
-    if (key == 116)
+    if (key == 19)
         data->cos += 0.1;
-    if (key == 121)
+    if (key == 20)
         data->cos -= 0.1;
-    if (key == 115)
+    if (key == 21)
         data->sin += 0.1;
-    if (key == 119)
+    if (key == 23)
         data->sin -= 0.1;
     if (key == 18)
         ((data->isometr == 1) ? (data->isometr = 0) : (data->isometr = 1));
@@ -52,8 +52,8 @@ void    default_arg(fdf *data)
     data->sin = 0.8;
     data->isometr = 1;
     data->z_zoom = 1;
-    data->shift_x = 1;
-    data->shift_y = 1;
+    data->shift_x = 400;
+    data->shift_y = 400;
 }
 
 int main(int argc, char **argv)
