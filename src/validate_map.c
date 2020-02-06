@@ -4,6 +4,16 @@
 
 #include "fdf.h"
 
+void    check_strings(int *i, int *temp)
+{
+    static int  width_string;
+
+    if (!width_string)
+        width_string = *i;
+    else if (width_string > 0 && width_string != *i)
+        *temp = 1;
+}
+
 void    validate_map(char *line, int *temp)
 {
     char		**numb;
@@ -28,4 +38,5 @@ void    validate_map(char *line, int *temp)
         i++;
     }
     free(numb);
+    check_strings(&i, *&temp);
 }

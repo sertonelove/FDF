@@ -10,21 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24024cb0-faf5-49d8-9e8f-6ac07a646ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compound.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compound_functions.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_key.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw_menu.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdf" beforeDir="false" afterPath="$PROJECT_DIR$/fdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/minilibx_macos/libmlx.a" beforeDir="false" afterPath="$PROJECT_DIR$/minilibx_macos/libmlx.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validate_map.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validate_map.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/validate_map.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +66,7 @@
       <workItem from="1580742480115" duration="8639000" />
       <workItem from="1580821099897" duration="13391000" />
       <workItem from="1580910058770" duration="23027000" />
-      <workItem from="1580999523381" duration="1610000" />
+      <workItem from="1580999523381" duration="2808000" />
     </task>
     <servers />
   </component>
