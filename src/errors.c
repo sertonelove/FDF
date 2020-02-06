@@ -14,9 +14,9 @@ void    not_valid_error(char *line, int *temp)
     }
 }
 
-void    not_exist_error(char *file_name, int fd)
+void    not_exist_error(char *file_name, int *fd)
 {
-    if ((fd = open(file_name, O_RDONLY, 0)) <= 0)
+    if ((*fd = open(file_name, O_RDONLY, 0)) <= 0)
     {
         ft_putstr("file does not exist!\n");
         exit(0);

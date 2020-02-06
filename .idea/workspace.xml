@@ -10,13 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24024cb0-faf5-49d8-9e8f-6ac07a646ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/errors.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validate_map.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdf.c" beforeDir="false" afterPath="$PROJECT_DIR$/fdf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdf.h" beforeDir="false" afterPath="$PROJECT_DIR$/fdf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read.c" beforeDir="false" afterPath="$PROJECT_DIR$/read.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compound.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compound_functions.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal_key.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw_menu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minilibx_macos/libmlx.a" beforeDir="false" afterPath="$PROJECT_DIR$/minilibx_macos/libmlx.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate_map.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +75,8 @@
       <workItem from="1580650288738" duration="1725000" />
       <workItem from="1580742480115" duration="8639000" />
       <workItem from="1580821099897" duration="13391000" />
-      <workItem from="1580910058770" duration="21238000" />
+      <workItem from="1580910058770" duration="23027000" />
+      <workItem from="1580999523381" duration="1610000" />
     </task>
     <servers />
   </component>
@@ -75,10 +84,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="959" y="566" key="com.intellij.ide.util.TipDialog" timestamp="1580910058789">
+    <state x="959" y="566" key="com.intellij.ide.util.TipDialog" timestamp="1580999523123">
       <screen x="0" y="23" width="2560" height="1360" />
     </state>
     <state x="959" y="552" key="com.intellij.ide.util.TipDialog/0.0.2560.1383@0.0.2560.1383" timestamp="1580650371066" />
-    <state x="959" y="566" key="com.intellij.ide.util.TipDialog/0.23.2560.1360@0.23.2560.1360" timestamp="1580910058789" />
+    <state x="959" y="566" key="com.intellij.ide.util.TipDialog/0.23.2560.1360@0.23.2560.1360" timestamp="1580999523123" />
   </component>
 </project>

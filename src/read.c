@@ -59,12 +59,11 @@ void    read_file(char *file_name, fdf *data)
     int     i;
     int     temp;
 
-    not_exist_error(file_name, fd);
+    not_exist_error(file_name, &fd);
     data->height = get_height(file_name);
     data->width = get_width(file_name);
     data->matrix_z = (int **)malloc(sizeof(int*) * (data->height + 1));
     i = 0;
-    temp = 0;
     while (i <= data->height)
         data->matrix_z[i++] = (int*)malloc(sizeof(int) * (data->width + 1));
     i = 0;

@@ -1,7 +1,6 @@
 //
 // Created by Concetta Pataki on 02/02/2020.
 //
-
 #include "fdf.h"
 
 void    default_arg(fdf *data)
@@ -18,6 +17,7 @@ void    default_arg(fdf *data)
 int main(int argc, char **argv)
 {
     fdf *data;
+
     argc_error(argc);
     data = (fdf*)malloc(sizeof(fdf));
     default_arg(data);
